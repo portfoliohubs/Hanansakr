@@ -1,0 +1,358 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Hanan Sakr"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Hanan Sakr"
+    tagline = "Internship , interested with surgery, orthodontics, endodontics"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/8f6669cd-ef12-4939-9d1f-7eea2a371d34"
+    profile_image_alt = "Profile photo of Dr. Hanan Sakr"
+    
+    [params.hero.current_position]
+      role = "internship Dentist"
+      clinic = "Zagazig University Hospital , Oral and Dental medicine Zagazig University, Al-Qanayat Central Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Hanan Sakr"
+    doctor_name_ar = "د. حنان صقر"
+    site_name = "Dr. Hanan Sakr"
+    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
+    favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
+    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Hanan Sakr",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. حنان صقر",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور حنان صقر",
+      "عيادة حنان صقر",
+      "عيادة اسنان الشرقية",
+      "حنان صقر اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Ortho",
+      "Endo", 
+      "Extraction",
+      "Minor surgery & implant",
+      "Cosmetic dentistry",
+      "Removable & fixed prothodontics",
+      "perio"
+    ]
+    
+    digital = [
+      "Dental photograph",
+      "Editing",
+      "Exocad",
+      "Blue sky",
+      "PowerPoint",
+      "Microsoft programs"
+    ]
+    
+    soft = [
+      "Time management",
+      "communication with children",
+      "developing short-term and long-term treatment plans",
+      "speaking languages (Arabic, English and Turkish fluently), and German (under study)"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Started Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from Faculty of Dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+#الحشو التجميلى
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "operative and cosmetics"
+    category_ar = "حشو عادى وتجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/622e4213-6680-4c65-9c28-9678cac9c8cd"
+      alt = "Class 4 composite restoration for traumatic fractured U1"
+      description = "Class 4 composite restoration for traumatic fractured U1"
+      alt_ar = "حشو تجميلي لسن مكسور"
+      description_ar = "حشو تجميلي لسن مكسور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/013245cb-3940-44ac-a3d2-ebbe4d20c38e"
+      alt = "Composite restoration for very deep cavities due to deep caries"
+      description = "Composite restoration for very deep cavities due to deep caries"
+      alt_ar = "حشو تجميلي للأضراس الخلفية"
+      description_ar = "حشو تجميلي للأضراس الخلفية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c882e0d7-db18-4946-bdc1-7c0ce84c777d"
+      alt = "Back to Back composite restoration"
+      description = "Back to Back composite restoration"
+      alt_ar = "حشو تجميلي"
+      description_ar = "حشو تجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "prosthesis"
+    category_ar = "التركيبات الثابتة والمتحركة والزراعه"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/53df8e25-6750-4020-81a6-c092c1684246"
+      alt = "Bridge replacing missed lower6"
+      description = "Bridge replacing missed lower6"
+      alt_ar = "كوبري لتعويض ضرس مفقود"
+      description_ar = "كوبري لتعويض ضرس مفقود"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1948c6af-f2d1-4131-971e-e9f4af533022"
+      alt = "Implant placement"
+      description = "Implant placement"
+      alt_ar = "زراعة الأسنان"
+      description_ar = "زراعة الأسنان"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f31029e6-9ed9-46e1-afcb-c6e521cb93b2"
+      alt = "Complete denture"
+      description = "Complete denture"
+      alt_ar = "طقم اسنان كامل متحرك"
+      description_ar = "طقم اسنان كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/56c5baed-affa-4472-a499-2e7371951041"
+      alt = "Endodontic treatment of LR 6&7 at single visit"
+      description = "Endodontic treatment of LR 6&7 at single visit"
+      alt_ar = "حشو عصب لضرسين خلفيين في جلسة واحدة"
+      description_ar = "حشو عصب لضرسين خلفيين في جلسة واحدة"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2eab70d1-285c-4452-a3bc-97f526880f7f"
+      alt = "Endodontic treatment of UL7 at single visit"
+      description = "Endodontic treatment of UL7 at single visit"
+      alt_ar = "حشو عصب للضرس الأخير علوي في جلسة واحدة"
+      description_ar = "حشو عصب للضرس الأخير علوي في جلسة واحدة"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b76404ec-d0b9-4cf4-b8c5-183953f9f72e"
+      alt = "Endodontic treatment of UR 2,3,4 at single visit"
+      description = "Endodontic treatment of UR 2,3,4 at single visit"
+      alt_ar = "حشو عصب لأكثر من سن في جلسة واحدة"
+      description_ar = "حشو عصب لأكثر من سن في جلسة واحدة"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201005484324"
+    whatsapp = "+201005484324"
+    email = "hanansakr17@gmail.com"
+    instagram = "https://www.instagram.com/dr_hanan_sakr?igsh=ZGZ3eHc1bDlpMzhv"
+    facebook = "https://www.facebook.com/share/17nSFKi9UP/"
+    linkedin = "https://www.linkedin.com/in/hanan-sakr-4a66643a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    
+    [params.contact.location]
+      enabled = true
+      address = "جامعة الزقازيق"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. حنان صقر"
+    tagline = "طبيب امتياز، مهتم بالجراحة، تقويم الأسنان، علاج الجذور"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور حنان صقر"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "مستشفى جامعة الزقازيق، كلية طب أسنان جامعة الزقازيق، مستشفى القنايات المركزي"
+  
+[params.ar.skills]
+    clinical = [
+      "تقويم الأسنان",
+      "علاج جذور الأسنان",
+      "خلع الأسنان",
+      "الجراحة البسيطة وزراعة الأسنان",
+      "طب الأسنان التجميلي",
+      "تركيبات الأسنان المتحركة والثابتة",
+      "علاج أمراض اللثة"
+    ]
+    
+    digital = [
+      "التصوير الفوتوغرافي للأسنان",
+      "التحرير",
+      "برنامج Exocad",
+      "برنامج Blue Sky",
+      "برنامج PowerPoint",
+      "برامج Microsoft"
+    ]
+    
+    soft = [
+      "إدارة الوقت",
+      "التواصل مع الأطفال",
+      "وضع خطط علاجيه على المدى القصير والطويل",
+      "تحدث لغات (عربي و انجليزي وتركي بطلاقه)، والماني (قيد الدراسه)"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء الدراسة في كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من كلية طب الأسنان"  
+
+  [params.ar.contact.location]
+    address = "123 الشارع الرئيسي، المدينة، البلد"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
