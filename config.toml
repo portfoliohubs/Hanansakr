@@ -21,9 +21,9 @@ defaultContentLanguage = "en"
     doctor_name_en = "Dr. Hanan Sakr"
     doctor_name_ar = "د. حنان صقر"
     site_name = "Dr. Hanan Sakr"
-    og_image = ""
-    favicon_image = ""
-    twitter_handle = ""
+    og_image = "https://github.com/user-attachments/assets/1a1d16b2-223a-4258-9f86-910c236f6256"
+    favicon_image = "https://github.com/user-attachments/assets/1a1d16b2-223a-4258-9f86-910c236f6256"
+    twitter_handle = "https://github.com/user-attachments/assets/1a1d16b2-223a-4258-9f86-910c236f6256"
     keywords = [
       "dentist",
       "dental clinic",
